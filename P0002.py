@@ -13,7 +13,7 @@ def fibonacci(n):
 def solution():
     ans = 0
     i = 1
-    while fibonacci(i) <= 4000000:
+    while fibonacci(i) <= 6000000:
         if fibonacci(i) % 2 == 0:
             ans += fibonacci(i)
         i += 1
